@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Algo - Next Gen Solutions</title>
+    <meta name="description" content="Experience the best algorithms formatted in a high-quality website. Premium solutions for modern problems.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Quant<span class="highlight">Algo</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+        </ul>
+        <button class="cta-nav" id="openModalBtn">Get Started</button>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge">Go Powered Performance</div>
+            <h1>The Best <span class="gradient-text">Algorithm</span><br>In Website Format</h1>
+            <p>Deploying cutting-edge solutions with unmatched speed. Experience high-quality design powered by a robust Go backend.</p>
+            <div class="hero-buttons">
+                <button class="cta-primary" id="demoBtn">View Live Demo</button>
+                <button class="cta-secondary">Documentation</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="window-content">
+<pre><code><span class="keyword">package</span> main
+
+<span class="keyword">import</span> <span class="string">"fmt"</span>
+
+<span class="keyword">func</span> <span class="function">optimize</span>(data []<span class="type">int</span>) []<span class="type">int</span> {
+    <span class="comment">// The ultimate algorithm</span>
+    <span class="keyword">for</span> i := <span class="number">0</span>; i < len(data); i++ {
+        data[i] = data[i] * <span class="number">42</span>
+    }
+    <span class="keyword">return</span> data
+}
+
+<span class="keyword">func</span> <span class="function">main</span>() {
+    fmt.Println(<span class="string">"High Performance Go!"</span>)
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="close-btn" id="closeModalBtn">&times;</button>
+            <div class="modal-icon">🚀</div>
+            <h2>Ready to Deploy?</h2>
+            <p>Join thousands of developers building fast, reliable applications with our Go framework.</p>
+            <form class="subscribe-form" id="subscribeForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="cta-primary full-width">Get Early Access</button>
+            </form>
+            <div class="success-message" id="successMessage" style="display: none;">
+                <p>Welcome aboard! Check your email soon.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
